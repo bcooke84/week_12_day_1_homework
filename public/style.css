@@ -6,3 +6,9 @@
 .red-quote{
   color: red;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: green;
+}
