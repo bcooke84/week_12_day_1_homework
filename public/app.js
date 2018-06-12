@@ -29,8 +29,8 @@ var createFaveFoodItem = function(faveFood) {
 var createImgUrlItem = function(imgUrl) {
   var imgUrlListItem = document.createElement("li");
   var imgUrlItem  = document.createElement("img");
-  imgUrlItem.width = "500";
-  imgUrlItem.src = imgUrl;
+  imgUrlItem.setAttribute("width", '500');
+  imgUrlItem.setAttribute('src', imgUrl);
   imgUrlListItem.appendChild(imgUrlItem);
   return imgUrlListItem;
 }
